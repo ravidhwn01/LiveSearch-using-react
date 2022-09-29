@@ -16,15 +16,15 @@ export default function User() {
       </h2>
 
       {/* use of useLocation hook */}
-      <h1> my current loaction is {location.pathname} </h1>
-      {location.pathname === `/user/ravi/dhawan` ? (
+      {/* <h1> my current loaction is {location.pathname} </h1> */}
+      {/* {location.pathname === `/user/ravi/dhawan` ? (
         <button
           onClick={() => history.goBack() }
         >
           
           got back 
         </button>
-      ) : null}
+      ) : null} */}
     </>
   );
 }
